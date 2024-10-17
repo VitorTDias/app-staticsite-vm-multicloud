@@ -1,6 +1,6 @@
 variable "rg_name" {
     type    = string
-    default = "rg-staticsite-vm-tf-vitor"
+    default = "rg-staticsite-vm-tf-vitor2"
 }
 
 variable "location" {
@@ -20,5 +20,5 @@ variable "subnet_cidr" {
 
 variable "fqdn" {
     type    = string
-    default = "staticsite-vm-vitor"
+    default = "staticsite-vm-vitor2"
 }
