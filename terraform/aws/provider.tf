@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "staticsitevmtfkledson"
+    bucket         = "staticsitevmtfvitor"
     key            = "terraform.tfstate"
-    dynamodb_table = "staticsitevmtfkledson"
+    dynamodb_table = "staticsitevmtfvitor"
     region         = "us-east-1"
   }
 }
